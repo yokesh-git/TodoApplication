@@ -1,0 +1,6 @@
+body{
+	justify-content: center;
+	display: flex;
+	font-family: 'Poppins', sans-serif;
+	padding: 50px;
+}

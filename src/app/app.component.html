@@ -1,0 +1,17 @@
+<div class=text>
+  <h1>{{title}}</h1>
+</div>
+<div class="main">
+  <div class="search">
+    <input type="text" #AddTodo placeholder="Add Todo!"/>
+    <button class="add" (click) = "addTodo(AddTodo.value); AddTodo.value=''">Add</button>
+  
+    <table>
+      <tr *ngFor="let todo of todos">
+        <td>{{todo}}</td>
+        <button class="del" (click) = "deleteTodo(todo)">Delete</button>
+      </tr>
+    </table>
+  </div>
+  
+</div>

@@ -1,0 +1,64 @@
+
+tr{
+    padding : 200px;
+    list-style: none;
+    width: 200px;
+}
+tr td{
+    background: #fff;
+	margin-top:100px;
+	padding: 10px;
+	width: 470px;
+    max-width: 470px;
+}
+input{
+    width: 80%;
+	padding: 10px;
+	font-size: 16px;
+	margin-left: 8px;
+	border-radius: 3px;
+	border: none;
+	outline: none;
+    margin-bottom: 10px;
+    
+}
+.add{
+    padding: 4px;
+	float: right;
+	cursor: pointer;
+    position: absolute;
+    right: 5px;
+    
+    background: green;
+    color: white;
+    width: 80px;
+    height: 30px;
+    
+}
+.search{
+	position: relative;
+    padding: 10px;
+    top:-10px;
+    
+}
+
+.del{
+    padding: 4px;
+	float: right;
+	cursor: pointer;
+    position: absolute;
+    right: 5px;
+    background: rgb(153, 33, 33);
+    color: white;
+    width: 80px;
+    height: 30px;
+    
+}
+.main{
+	width: 600px;
+	padding: 15px;
+	background-color: #405bad;
+}
+.text{
+    text-align: center;
+}
